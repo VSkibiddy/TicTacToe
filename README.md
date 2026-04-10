@@ -55,16 +55,16 @@ wins the game.
 
 * HTML5 – Structure of the game board
 * CSS3 – Styling and layout
-* JavaScript (ES6) – Game logic and interactivity
+* JavaScript – Game logic and interactivity
 
 ## Game Logic Overview
 * The board is represented by a 3×3 matrix initialized with zeros.
 * Player moves are stored as:\
-1 for Player A (X)\
--1 for Player B (O)
+ - 1 for Player A (X)\
+ - -1 for Player B (O)
 * A player wins when the sum of a row, column, or diagonal equals:\
-3 → Player A wins\
--3 → Player B wins
+ - 3 → Player A wins\
+ - -3 → Player B wins
 
 ## License
 This project is intended for educational purposes. You are free to use and modify it.
